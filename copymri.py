@@ -26,14 +26,6 @@
 ##print 'SCRIPT EXECUTED: ' + #see copymri.sh: what's this doing?
 ##print 'SCRIPT EXECUTED BY: ' +
 
-#set up command-line parser
-import argparse
-parser = argparse.ArgumentParser()
-parser.add_argument("--trpsubj", help="TRP subject number")
-args = parser.parse_args()
-if args.trpsubj:
-    print("TRP subject number exists")
-
 ### required and optional parameters (subject ID, etc.) for us to grab the DICOMs
 trpsubj = str(raw_input('Enter TRP subject ID (if none, type "none"): '))
 pingsubj = str(raw_input('Enter PING subject ID (if none, type "none"): '))
@@ -59,6 +51,14 @@ print dcmsubj #currently printing none, figure out why
 ##    print "Please only enter 'TD' or 'ASD' for subject type."
 ##    subject_type = str(raw_input('TD or ASD? '))
 ##
+          
+#set up command-line parser (WIP: will include all arguments from above)
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--trpsubj", help="TRP subject number")
+args = parser.parse_args()
+if args.trpsubj:
+    print("TRP subject number exists")
           
 ##def copymri(subject, visit, run, othervars): #might change the input to something other than subject; we'll see how this turns out
     ##from sh import Command
