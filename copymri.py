@@ -8,13 +8,12 @@
 # Boston
 #
 # Rev 1, Manfred Kitzbichler: conversion to Bash, general cleanup, extended multi-session functionality, argument processing, cluster-processing
-#
 # Rev 2, Keri Garel: conversion to Python
 #
 # Keri Garel: kgarel@mgh.harvard.edu
 # TRANSCEND Research Group
-# Martinos Center, Massachusetts General Hospital
-# Boston
+# Athinoula A. Martinos Center, Massachusetts General Hospital
+# Boston, MA
 
 # We're calling a bunch of shell scripts in Python. I'm going to use sh (a python subprocess interface/replacement) to do so, as it abstracts away some of the stuff we don't care about so much:
 ##pip install sh
