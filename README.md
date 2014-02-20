@@ -1,7 +1,7 @@
 transcend-copymri
 =================
 
-This script finds the DICOMs from TRANSCEND's MRI scans, copies them locally, and does surface reconstruction on the cluster
+copymri finds the DICOMs from our MRI scans, copies them locally, and does surface reconstruction on the cluster
 
 What we're doing
 =================
