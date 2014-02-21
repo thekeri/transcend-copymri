@@ -16,7 +16,7 @@
 # Boston, MA
 
 # We're calling a bunch of shell scripts in Python. I'm going to use sh (a python subprocess interface/replacement) to do so, as it abstracts away some of the stuff we don't care about so much:
-##pip install sh
+import sh #on windows machines: import sh as pbs
 
 # Set location of scripts being called here
 ##script_dir = 
