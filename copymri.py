@@ -59,11 +59,11 @@ args = parser.parse_args()
 if args.trpsubj:
     print("TRP subject number exists")
           
-##def copymri(subject, visit, run, othervars): #might change the input to something other than subject; we'll see how this turns out
-    ##from sh import Command
-    ##run = Command ("copymri.sh")
-    ##run()
+def copymri(subject, visit, run, executor_email): #might change the input to something other than subject; we'll see how this turns out
+    from sh import Command
+    run = Command ("copymri.sh")
+    run()
     
     
     
-##copymri (dcmsubj, visit, run, othervars)
+##copymri (dcmsubj, visit, run, executor_email)
