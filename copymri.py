@@ -8,7 +8,7 @@
 # Boston
 #
 # Rev 1, Manfred Kitzbichler: conversion to Bash, general cleanup, extended multi-session functionality, argument processing, cluster-processing
-# Rev 2, Keri Garel: conversion to Python
+# Rev 2, Keri Garel: conversion to Python - made worse, will make better
 #
 # Keri Garel: kgarel@mgh.harvard.edu
 # TRANSCEND Research Group
