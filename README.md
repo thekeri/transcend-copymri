@@ -10,6 +10,5 @@ copymri is currently a shell script; one we're converting to Python. It's a rela
 
 I don't know what I'm doing, so this will be quite fun.
 
-Things you'll need
-==================
-* sh (https://github.com/amoffat/sh)
+Things you'll need:
+* [sh](https://github.com/amoffat/sh) Can be installed via `pip install sh` or `easy_install sh`
